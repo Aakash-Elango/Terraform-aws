@@ -1,2 +1,9 @@
 # Terraform-aws
-Code to provision AWS services using Teraaform
+DOWNLOAD AND INSTALL TERRAFORM
+https://www.terraform.io/downloads.html
+
+TERRAFORM COMMANDS
+1) TERRAFORM INIT
+2) TERRAFORM PLAN
+3) TERRAFORM APPLY
+4) TERRAFORM DESTROY

@@ -12,7 +12,7 @@ data "template_file" "create-user" {
 resource "aws_instance" "linux-server" {
 	ami           	= "ami-098f16afa9edf40be"
 	instance_type 	= "t2.micro"
-	instance_count  = 5
+	count  = 5
 	security_groups = ["${aws_security_group.allow-ssh-port.name}"]
 	key_name        = "us-test"
 	user_data       = "${data.template_file.create-user.rendered}"
